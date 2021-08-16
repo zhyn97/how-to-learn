@@ -96,13 +96,7 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  border: 1px solid red;
-}
+
 
 .description {
   border: 1px solid red;
@@ -307,4 +301,48 @@
   text-decoration: none;
   color: #2f80ed;
   border: 1px solid red;
+}
+
+.kaufman{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 90px 0;
+  background-color:#1f1f1f;
+  overflow: hidden;
+  position: relative;
+}
+
+/*.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  border: 1px solid red;
+}*/
+
+.table__cell_theme_dark {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+.table__theme_dark {
+  z-index: 1;
+}
+
+.table__point_theme_dark{
+  width: 200px;
+}
+
+.table__img-triangle {
+  position: absolute;
+  right: -210px;
+  top: 0px;
+  width: 877px;
+  height: 877px;
 }
