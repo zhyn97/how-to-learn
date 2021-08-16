@@ -27,15 +27,14 @@
   position: relative;
 }
 
-.header__logo{
-  background-image: url(../images/logo_place_header.svg);
+.logo{
   border: 1px solid red;
   width: 183px;
   height: 32px;
   z-index: 2;
 }
 
-.header__logo_place_header{
+.logo_place_header{
   position: absolute;
   left: 64px;
   top: 30px;
@@ -232,7 +231,7 @@
 
 .table__text-first {
   padding: 0;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -243,6 +242,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
+  margin: 20px 0 0 0;
 }
 
 .feynman{
@@ -337,6 +337,7 @@
 
 .table__point_theme_dark{
   width: 200px;
+  margin-top: 80px;
 }
 
 .table__img-triangle {
@@ -345,4 +346,85 @@
   top: 0px;
   width: 877px;
   height: 877px;
+}
+
+/* блок footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  min-height: 350px;
+}
+
+.footer__columns {
+  border: 1px solid red;
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 0 40px 0;
+}
+
+.footer__column_content_copyright {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  align-items: flex-start;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  display: flex;
+}
+
+.footer__author {
+  margin: 18px 0;
+  border: 1px solid red;
+  display: flex;
+}
+
+.footer__author-text {
+  margin: 0;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  border: 1px solid red;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px 0;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.foto {
+  margin-right: 10px;
+}
+
+.footer__column_content_social {
+  border: 1px solid red;
 }
