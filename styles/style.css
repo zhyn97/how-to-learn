@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 1px solid red;
 }
 
 .text{
@@ -20,7 +19,6 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   background-color:  #f2f2f2;
-  border: 1px solid red;
   min-height: 650px;
   max-height: 756px;
   display: flex;
@@ -28,7 +26,6 @@
 }
 
 .logo{
-  border: 1px solid red;
   width: 183px;
   height: 32px;
   z-index: 2;
@@ -42,7 +39,6 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 .header__title {
-  border: 1px solid red;
   width: 730px;
   display: flex;
   align-self: center;
@@ -57,7 +53,6 @@
 }
 
 .header__subtitle{
-  border: 1px solid red;
   position: absolute;
   bottom: 30px;
   left: 63px;
@@ -71,23 +66,30 @@
   line-height: 25px;
 }
 
+.header__link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__main-illustration{
-  border: 1px solid red;
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 756px;
-  height: 608px;
-  background-image: url(../images/header-image.png);
-  background-size: cover;
   z-index: 1;
   
+}
+
+.header__two-again {
+  width: 756px;
+  height: 608px;
 }
 
 .header__square-pic {
   height: 568px;
   width: 568px;
-  border: 1px solid red;
   position: absolute;
   top: 68px;
   right: 0;
@@ -98,13 +100,11 @@
 
 
 .description {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
 }
 
 .two-columns {
-  border: 1px solid red;
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
@@ -112,7 +112,6 @@
 }
 
 .two-columns__brief{
-  border: 1px solid red;
   display: flex;
   width: 175px;
 }
@@ -126,7 +125,6 @@
 }
 
 .two-columns__main-text{
-  border: 1px solid red;
   display: flex;
   width: 80%;
   min-width: 784px;
@@ -154,7 +152,6 @@
 }
 
 .digits {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,7 +161,6 @@
 
 .section-title {
   width: 60%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -183,7 +179,6 @@
 
 .section-subtitle {
   width: 60%;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -200,7 +195,6 @@
 }
 
 .table {
-  border: 1px solid red;
   width: 1100px;
   padding: 0;
 }
@@ -217,7 +211,6 @@
 
 .table__point {
   width: 250px;
-  border: 1px solid red;
   padding: 0;
   margin: 60px 0 0 0;
 }
@@ -246,7 +239,6 @@
 }
 
 .feynman{
-  border: 1px solid red;
   height: 890px;
   background-color:  #f2f2f2 ;
   background-image: url(../images/feynman.png);
@@ -261,7 +253,6 @@
 }
 
 .feynman__title {
-  border: 1px solid red;
   margin: 100px 0 0 0;
   text-align: center;
   width: 648px;
@@ -275,7 +266,6 @@
 }
 
 .feynman__subtitle {
-  border: 1px solid red;
   text-align: center;
   margin-top: 70px;
 
@@ -300,11 +290,9 @@
   line-height: 51px;
   text-decoration: none;
   color: #2f80ed;
-  border: 1px solid red;
 }
 
 .kaufman{
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -358,7 +346,6 @@
 }
 
 .footer__columns {
-  border: 1px solid red;
   display: flex;
   width: 90%;
   flex-direction: row;
@@ -367,7 +354,6 @@
 }
 
 .footer__column_content_copyright {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -383,7 +369,6 @@
 
 .footer__author {
   margin: 18px 0;
-  border: 1px solid red;
   display: flex;
 }
 
@@ -396,7 +381,6 @@
 }
 
 .footer__column_content_info {
-  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -426,5 +410,4 @@
 }
 
 .footer__column_content_social {
-  border: 1px solid red;
 }
