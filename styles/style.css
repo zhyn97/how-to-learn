@@ -333,13 +333,13 @@
   color: white;
 }
 
-.footer__column_links {
+.footer__column-links {
   margin: 0 0 16px 0;
   padding: 0;
   list-style-type: none;
 }
 
-.footer__column_link {
+.footer__column-link {
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
